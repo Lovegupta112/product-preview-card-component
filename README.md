@@ -38,7 +38,7 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 ### Links
 
 - Solution URL: https://github.com/Lovegupta112/product-preview-card-component
-- Live Site URL:https://lovegupta-qr-code-component.netlify.app
+- Live Site URL:https://lovegupta112.github.io/product-preview-card-component
 
 ## My process
 ### Built with
