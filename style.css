@@ -59,14 +59,14 @@ border-bottom-left-radius:7px;
 }
 
 
-.second #heading{
+.second .heading{
     /* border: 1px solid rgb(250, 58, 58); */
     width:170px;
     font-family: 'Fraunces', serif;
     font-size:1.7rem;
 }
 
-.second h5{
+.second .para1{
     /* border: 1px solid black; */
     letter-spacing:5px;
     color:var(--Dark-grayish-blue);
@@ -75,7 +75,7 @@ border-bottom-left-radius:7px;
     font-family: 'Outfit', sans-serif;
     font-weight:500;
 }
-.second #para{
+.second .para2{
     /* border: 1px solid black; */
     width:210px;
     line-height:20px;
@@ -134,55 +134,54 @@ font-family: 'Fraunces', serif;
     color: hsl(228, 45%, 44%);
   }
 
+  @media only screen and (max-width:530px){
 
-/* for mobile devices */
-
-  @media only screen and (max-width:500px){
-
-body{
-    margin: 0;
-    padding: 0;
-}
-    .container{
-        display: flex;
-        flex-direction:column;
-        margin-top:3rem;
-        margin-bottom:3rem;
-        /* border:1px solid black; */
+    body{
+        margin: 0;
+        padding: 0;
     }
-    .image img{
-        display: none;
-    }
-    .image{
-        background-image: url('images/image-product-mobile.jpg');
-        width:270px;    
-        height:160px;
-        /* border:1px solid red; */
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        border-radius:7px 7px 0px 0px;
-    }
-
-    .second{
-border-radius:0px 0px 7px 7px;
-padding: 17px 25px;
-    }
-    .second #heading{
-        /* border: 1px solid rgb(250, 58, 58); */
-        width: 220px;
-        font-family: 'Fraunces', serif;
-        font-size: 1.511rem;
-        word-spacing: 4px;
-    }
-    .second #heading{
-        margin:8px 0px;
-    }
-    .second #para{
-        margin-bottom: 17px;
-    }
-    .second button{
-margin-top:14px;
-
-    }
-  }
+        .container{
+            display: flex;
+            flex-direction:column;
+            margin-top:3rem;
+            margin-bottom:3rem;
+            /* border:1px solid black; */
+        }
+        .image{
+            width: fit-content;
+            display: flex;
+          /* border-top-left-radius:7px;
+          border-bottom-left-radius:7px; */
+        }
+        .image img{
+            /* background-image: url('images/image-product-mobile.jpg'); */
+            width:270px;    
+            height:160px;
+            /* border:1px solid red; */
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius:7px 7px 0px 0px;
+        }
+    
+        .second{
+    border-radius:0px 0px 7px 7px;
+    padding: 17px 25px;
+        }
+        .second .heading{
+            /* border: 1px solid rgb(250, 58, 58); */
+            width: 220px;
+            font-family: 'Fraunces', serif;
+            font-size: 1.511rem;
+            word-spacing: 4px;
+            margin:8px 0px;
+        }
+      
+        .second .para2{
+            margin-bottom: 17px;
+        }
+        .second button{
+    margin-top:14px;
+    
+        }
+      }
